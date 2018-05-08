@@ -48,9 +48,7 @@ public interface Invoker {
 	/**
 	 * Gets the working directory for the Calibre invocation.
 	 * 
-	 * @return The working directory for the Calibre invocation or <code>null</code>
-	 *         if the working directory is derived from the base directory of the
-	 *         processed POM.
+	 * @return The working directory for the Calibre invocation 
 	 */
 	File getWorkingDirectory();
 
@@ -75,8 +73,8 @@ public interface Invoker {
 	 * Sets the path to the base directory of the Calibre installation used to
 	 * invoke Calibre. This parameter may be left unspecified to use the default
 	 * Calibre installation which will be discovered by evaluating the system
-	 * property <code>maven.home</code> and the environment variable
-	 * <code>M2_HOME</code>.
+	 * property <code>calibre.home</code> and the environment variable
+	 * <code>CALIBRE_HOME</code>.
 	 * 
 	 * @param calibreHome
 	 *            The path to the base directory of the Calibre installation, may be
