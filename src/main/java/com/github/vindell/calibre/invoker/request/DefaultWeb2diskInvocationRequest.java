@@ -21,7 +21,7 @@ import java.io.File;
  * https://manual.calibre-ebook.com/generated/en/web2disk.html
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultWeb2diskInvocationRequest extends DefaultInvocationRequest implements Web2diskInvocationRequest {
+public class DefaultWeb2diskInvocationRequest extends AbstractInvocationRequest implements Web2diskInvocationRequest {
 
 	/**
 	 * Base directory into which URL is saved. Default is .

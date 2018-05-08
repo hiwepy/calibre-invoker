@@ -25,7 +25,7 @@ package com.github.vindell.calibre.invoker.request;
  * https://manual.calibre-ebook.com/generated/en/ebook-polish.html
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultEbookPolishInvocationRequest  extends DefaultInvocationRequest implements InvocationRequest {
+public class DefaultEbookPolishInvocationRequest  extends AbstractInvocationRequest implements InvocationRequest {
 
 	/**
 	 * Losslessly compress images in the book, to reduce the filesize, without affecting image quality.

@@ -24,7 +24,7 @@ import java.io.File;
  * 
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultFetchEbookMetadataInvocationRequest extends DefaultInvocationRequest
+public class DefaultFetchEbookMetadataInvocationRequest extends AbstractInvocationRequest
 		implements FetchEbookMetadataInvocationRequest {
 
 	/**

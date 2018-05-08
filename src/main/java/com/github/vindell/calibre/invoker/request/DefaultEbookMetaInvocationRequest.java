@@ -38,7 +38,7 @@ package com.github.vindell.calibre.invoker.request;
  * 
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultEbookMetaInvocationRequest extends DefaultInvocationRequest implements InvocationRequest  {
+public class DefaultEbookMetaInvocationRequest extends AbstractInvocationRequest implements InvocationRequest  {
 
 	/**
 	 * <p>String to be used when sorting by author. If unspecified, and the author(s) are specified, it will be auto-generated from the author(s).</p>

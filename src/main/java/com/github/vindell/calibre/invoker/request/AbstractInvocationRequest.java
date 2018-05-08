@@ -27,7 +27,7 @@ import com.github.vindell.calibre.invoker.InvocationOutputHandler;
 /**
  * Specifies the parameters used to control a Calibre invocation.
  */
-public abstract class DefaultInvocationRequest implements InvocationRequest {
+public abstract class AbstractInvocationRequest implements InvocationRequest {
 
 	public static final String DEFAULT_EXECUTABLE = "calibre";
 

@@ -48,7 +48,7 @@ package com.github.vindell.calibre.invoker.request;
  * https://manual.calibre-ebook.com/generated/en/ebook-convert.html
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultEbookConvertInvocationRequest  extends DefaultInvocationRequest implements InvocationRequest {
+public class DefaultEbookConvertInvocationRequest  extends AbstractInvocationRequest implements InvocationRequest {
 
 	/*
 	 * Look and Feel

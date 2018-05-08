@@ -21,7 +21,7 @@ import java.io.File;
  * https://manual.calibre-ebook.com/generated/en/lrfviewer.html
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultLrfviewerInvocationRequest extends DefaultInvocationRequest implements LrfviewerInvocationRequest {
+public class DefaultLrfviewerInvocationRequest extends AbstractInvocationRequest implements LrfviewerInvocationRequest {
 
 	/**
 	 * Disable hyphenation. Should significantly speed up rendering.

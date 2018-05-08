@@ -22,7 +22,7 @@ import java.io.File;
  * 
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultLrf2lrsInvocationRequest extends DefaultInvocationRequest implements Lrf2lrsInvocationRequest {
+public class DefaultLrf2lrsInvocationRequest extends AbstractInvocationRequest implements Lrf2lrsInvocationRequest {
 
 	/**
 	 * Indicates whether Do not save embedded image and font files to disk.

@@ -22,7 +22,7 @@ import java.io.File;
  * 
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultLrs2lrfInvocationRequest extends DefaultInvocationRequest implements Lrs2lrfInvocationRequest {
+public class DefaultLrs2lrfInvocationRequest extends AbstractInvocationRequest implements Lrs2lrfInvocationRequest {
 
 	/**
 	 * Convert LRS to LRS, useful for debugging.

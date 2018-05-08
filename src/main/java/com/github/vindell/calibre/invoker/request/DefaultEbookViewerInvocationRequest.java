@@ -20,7 +20,7 @@ package com.github.vindell.calibre.invoker.request;
  * https://manual.calibre-ebook.com/generated/en/ebook-viewer.html
  * @author ： <a href="https://github.com/vindell">vindell</a>
  */
-public class DefaultEbookViewerInvocationRequest extends DefaultInvocationRequest implements InvocationRequest  {
+public class DefaultEbookViewerInvocationRequest extends AbstractInvocationRequest implements InvocationRequest  {
 
 	/**
 	 * Continue reading at the previously opened book. 
