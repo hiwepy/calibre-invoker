@@ -14,7 +14,7 @@ A Java based wrapper for the [Calibre](https://calibre-ebook.com) command line t
 
 ``` xml
 <dependency>
-	<groupId>com.github.vindell</groupId>
+	<groupId>com.github.hiwepy</groupId>
 	<artifactId>calibre-invoker</artifactId>
 	<version>${project.version}</version>
 </dependency>
